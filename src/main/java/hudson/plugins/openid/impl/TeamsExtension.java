@@ -93,5 +93,5 @@ public class TeamsExtension extends OpenIdExtension {
     /**
      * Escape hatch for people affected by JENKINS-14843 until we switch to POST.
      */
-    public static boolean DISABLE = Boolean.getBoolean(TeamsExtension.class.getName()+"disable");
+    public static boolean DISABLE = Boolean.getBoolean(TeamsExtension.class.getName()+".disable");
 }
